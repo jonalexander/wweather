@@ -5,5 +5,7 @@ const Store = {
 // on document ready
 
 $(function() {
-  // create a new grid, display form, set up listeners for form submissions
+  // create a new Grid
+  form = new Form()
+  form.build()
 })

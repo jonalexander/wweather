@@ -1,0 +1,20 @@
+#wrapper {
+  width: 100%;
+  background-color: #444;
+}
+
+#form-container {
+  width: 100%;
+  background-color: #fff;
+}
+
+input {
+  width: 40%;
+  background-color: #eee;
+  display: block;
+  margin: 0 auto;
+  border: 0px solid;
+  height: 3em;
+  text-align: center;
+  color: #999;
+}
