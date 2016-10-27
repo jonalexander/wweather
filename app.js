@@ -2,10 +2,18 @@ const Store = {
   locations: []
 }
 
-// on document ready
+// on document-ready
 
 $(function() {
-  // create a new Grid
+
+  // create & display form
   form = new Form()
   form.build()
+
+  // initialize formController and add listener
+  formController = new formController()
+  formController.addSubmitListener()
+
+
+
 })
