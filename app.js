@@ -11,9 +11,8 @@ $(function() {
   form.build()
 
   // initialize formController and add listener
-  formController = new formController()
-  formController.addSubmitListener()
-
+  controller = new controller()
+  controller.addSubmitListener()
 
 
 })
