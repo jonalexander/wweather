@@ -2,8 +2,8 @@ class Form {
   build() {
     $('#wrapper').append('\
         <div id="form-container"> \
-          <form id="zipcode-input"> \
-            <input id="zipcode" type="text" placeholder="enter that zipcode"> \
+          <form id="city-state-input"> \
+            <input id="city-state" type="text" placeholder="city, state"> \
             </form> \
        </div>'
     )
