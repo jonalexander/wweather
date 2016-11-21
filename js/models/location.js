@@ -5,10 +5,12 @@ class Location {
     this.state = state
   }
 
+  // function to iterate over the forecast days and populate objects
+
   build() {
     $('#locations').append(` \
     <div class="location-block"> \
-      ${this.city} \
+      <h2>${this.city}</h2>  \
     </div> \
       `)
   }

@@ -3,7 +3,7 @@ const Store = {
 }
 
 // on document-ready
-$(function() {
+$( () => {
 
   // create & display form
   form = new Form()
